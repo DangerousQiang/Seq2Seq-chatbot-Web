@@ -13,7 +13,7 @@ flask==0.11.1
 3. You can modify the hyper parameters in seq2seq.ini and seq2seq_sever.ini
 
 ## Example Image
-![avatar](example_image/main.png)
+![avatar](https://github.com/DangerousQiang/Seq2Seq-chatbot-Web/blob/master/example_image/main.png)
 
 ## Directory Structure
 ```
