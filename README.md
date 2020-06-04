@@ -9,13 +9,14 @@ flask==0.11.1
 ```
 ## How to Start
 1. Download the corpus and put it into the folder /data.
-2. Run data_utls.py(preprocess)-->execute.py(train)-->app.py(server).
+2. Run **data_utls.py(preprocess)-->execute.py(train)-->app.py(server)**.
 3. You can modify the hyper parameters in seq2seq.ini and seq2seq_sever.ini
 
 ## Example Image
 ![avatar](example_image/main.png)
 
 ## Directory Structure
+```
 Root Directory
 │  app.py
 │  data_util.py
@@ -46,6 +47,7 @@ Root Directory
         dgk_shooter_z.conv
         seq.data
         xiaohuangji50w_nofenci.conv
+```
 
 ## References
 [http://blog.topspeedsnail.com/archives/10735/comment-page-1#comment-1161](http://blog.topspeedsnail.com/archives/10735/comment-page-1#comment-1161)
