@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html >
+	<head>
+		<meta charset="UTF-8">
+		<title>不太聪明的小江</title>
+
+
+		  <!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>CloudUi Premium Bootstrap Admin Dashboard Template</title>
+		<!-- plugins:css -->
+		
+		<link rel="stylesheet" href="vendors/iconfonts/simple-line-icon/css/simple-line-icons.css">
+		<link rel="stylesheet" href="vendors/iconfonts/flag-icon-css/css/flag-icon.min.css">
+		<link rel="stylesheet" href="vendors/css/vendor.bundle.base.css">
+		<link rel="stylesheet" href="vendors/css/vendor.bundle.addons.css">
+		<!-- endinject -->
+		<!-- plugin css for this page -->
+		<!-- End plugin css for this page -->
+		<!-- inject:css -->
+		<link rel="stylesheet" href="css/style.css">
+		<!-- endinject -->
+		<link rel="shortcut icon" href="images/favicon.png" />
+
+
+
+
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+		<link rel='stylesheet prefetch' href='js/jquery.mCustomScrollbar.min.css'>
+		<link rel="stylesheet" href="css/style.css">
+		
+
+		<script src="js/jquery-latest.js"></script>
+
+	</head>
+
+	<body onload="init()" id="page_body">
+
+  <div class="container-scroller">
+    <!-- partial:partials/_horizontal-navbar.html -->
+    <nav class="navbar horizontal-layout col-lg-12 col-12 p-0">
+      <div class="nav-top flex-grow-1">
+        <div class="container d-flex flex-row h-100 align-items-center">
+          <div class="text-center navbar-brand-wrapper d-flex align-items-center">
+            <a class="navbar-brand brand-logo" href="index.html"><img src="images/uugai.com_1580988040800.png" alt="logo"/></a>
+            <a class="navbar-brand brand-logo-mini" href="index.html"><img src="images/logo-mini.svg" alt="logo"/></a>
+          </div>
+          <div class="navbar-menu-wrapper d-flex align-items-center justify-content-between flex-grow-1">
+            <form class="search-field d-none d-md-flex" action="#">
+              <div class="form-group mb-0">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text"><i class="icon-magnifier"></i></span>
+                  </div>
+                  <input type="text" class="form-control" placeholder="search here...">
+                </div>
+              </div>
+            </form>
+            <ul class="navbar-nav navbar-nav-right mr-0 ml-auto">
+              <li class="nav-item dropdown d-none d-lg-flex nav-language">
+                <div class="nav-link">
+                  <span class="dropdown-toggle btn btn-sm" id="languageDropdown" data-toggle="dropdown">中文(简体)
+                    <i class="flag-icon flag-icon-cn ml-2"></i>
+                  </span>
+                  <div class="dropdown-menu navbar-dropdown" aria-labelledby="languageDropdown">
+                    <a class="dropdown-item font-weight-medium">
+                      French
+                      <i class="flag-icon flag-icon-fr ml-2"></i>
+                    </a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item font-weight-medium">
+                      Espanol
+                      <i class="flag-icon flag-icon-es ml-2"></i>
+                    </a>
+                    <div class="dropdown-divider"></div>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item font-weight-medium">
+                      Arabic
+                      <i class="flag-icon flag-icon-sa ml-2"></i>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link count-indicator dropdown-toggle" id="messageDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
+                  <i class="icon-envelope mx-0"></i>
+                  <span class="count"></span>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="messageDropdown">
+                  <div class="dropdown-item">
+                    <p class="mb-0 font-weight-normal float-left">未读通知
+                    </p>
+                    <span class="badge badge-info badge-pill float-right">阅读全部</span>
+                  </div>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item preview-item">
+                    <div class="preview-icon bg-success">
+                        <i class="icon-exclamation mx-0"></i>
+                    </div>
+                    <div class="preview-item-content flex-grow">
+                      <h6 class="preview-subject ellipsis font-weight-medium">江子越
+                        <span class="float-right font-weight-light small-text">1分钟前</span>
+                      </h6>
+                      <p class="font-weight-light small-text">
+                        请帮助我们训练聊天机器人
+                      </p>
+                    </div>
+                  </a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item preview-item">
+                    <div class="preview-icon bg-success">
+                        <i class="icon-exclamation mx-0"></i>
+                    </div>
+                    <div class="preview-item-content flex-grow">
+                      <h6 class="preview-subject ellipsis font-weight-medium">Tim Cook
+                        <span class="float-right font-weight-light small-text">15分钟前</span>
+                      </h6>
+                      <p class="font-weight-light small-text">
+                        新产品上线
+                      </p>
+                    </div>
+                  </a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item preview-item">
+                    <div class="preview-icon bg-success">
+                        <i class="icon-exclamation mx-0"></i>
+                    </div>
+                    <div class="preview-item-content flex-grow">
+                      <h6 class="preview-subject ellipsis font-weight-medium"> Johnson
+                        <span class="float-right font-weight-light small-text">18分钟前</span>
+                      </h6>
+                      <p class="font-weight-light small-text">
+                        数据不断更新中
+                      </p>
+                    </div>
+                  </a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link count-indicator dropdown-toggle" id="notificationDropdown" href="#" data-toggle="dropdown">
+                  <i class="icon-bell"></i>
+                  <span class="count"></span>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="notificationDropdown">
+                  <a class="dropdown-item py-3">
+                    <p class="mb-0 font-weight-medium float-left">收到4条新通知
+                    </p>
+                    <span class="badge badge-pill badge-info float-right">阅读全部</span>
+                  </a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item preview-item">
+                    <div class="preview-thumbnail">
+                      <div class="preview-icon bg-success">
+                        <i class="icon-exclamation mx-0"></i>
+                      </div>
+                    </div>
+                    <div class="preview-item-content">
+                      <h6 class="preview-subject font-weight-normal text-dark mb-1">应用程序启动完毕</h6>
+                      <p class="font-weight-light small-text mb-0">
+                        刚刚
+                      </p>
+                    </div>
+                  </a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item preview-item">
+                    <div class="preview-thumbnail">
+                      <div class="preview-icon bg-warning">
+                        <i class="icon-bubble mx-0"></i>
+                      </div>
+                    </div>
+                    <div class="preview-item-content">
+                      <h6 class="preview-subject font-weight-normal text-dark mb-1">应用程序正在设置</h6>
+                      <p class="font-weight-light small-text mb-0">
+                        5分钟前
+                      </p>
+                    </div>
+                  </a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item preview-item">
+                    <div class="preview-thumbnail">
+                      <div class="preview-icon bg-info">
+                        <i class="icon-user-following mx-0"></i>
+                      </div>
+                    </div>
+                    <div class="preview-item-content">
+                      <h6 class="preview-subject font-weight-normal text-dark mb-1">新用户注册</h6>
+                      <p class="font-weight-light small-text mb-0">
+                        8分钟前
+                      </p>
+                    </div>
+                  </a>
+                </div>
+              </li>
+              <li class="nav-item nav-profile dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="profileDropdown">
+                  <i class="icon-user-following mx-0"></i>
+                  <span class="nav-profile-name">聪明的你</span>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
+                  <a class="dropdown-item">
+                    <i class="icon-settings text-primary mr-2"></i>
+                    设置
+                  </a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item">
+                    <i class="icon-logout text-primary mr-2"></i>
+                    退出
+                  </a>
+                </div>
+              </li>
+            </ul>
+            <button class="navbar-toggler align-self-center" type="button" data-toggle="minimize">
+              <span class="icon-menu text-dark"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="nav-bottom">
+        <div class="container">
+          <ul class="nav page-navigation">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link"><i class="link-icon icon-screen-desktop"></i><span class="menu-title">主页(测试中)</span></a>
+            </li>
+            <li class="nav-item">
+              <a href="index.html" class="nav-link"><i class="link-icon icon-refresh"></i><span class="menu-title">刷新</span></a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link"><i class="link-icon icon-docs"></i><span class="menu-title">...</span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- partial -->
+    <div class="container-fluid page-body-wrapper">
+      <div class="main-panel">
+        <div class="content-wrapper">
+          <div class="row">
+            <div class="col-12 grid-margin">
+              <div class="card card-statistics">
+                <div class="card-body p-0">
+                  <div class="row">
+                    <div class="col-md-6 col-lg-3">
+                      <div class="d-flex justify-content-between border-right card-statistics-item">
+                        <div>
+                          <h1>0</h1>
+                          <p class="text-muted mb-0">总计消息数</p>
+                        </div>
+                        <i class="icon-layers text-primary icon-lg"></i>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                      <div class="d-flex justify-content-between border-right card-statistics-item">
+                        <div>
+                          <h1>0</h1>
+                          <p class="text-muted mb-0">总计访问数</p>
+                        </div>
+                        <i class="icon-people text-primary icon-lg"></i>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                      <div class="d-flex justify-content-between border-right card-statistics-item">
+                        <div>
+                          <h1>16076步</h1>
+                          <p class="text-muted mb-0">训练步数</p>
+                        </div>
+                        <i class="icon-pin text-primary icon-lg"></i>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                      <div class="d-flex justify-content-between card-statistics-item">
+                        <div>
+                          <h1>0.39756</h1>
+                          <p class="text-muted mb-0">当前损失值</p>
+                        </div>
+                        <i class="icon-refresh text-primary icon-lg"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">AI身份：不太聪明的小江</h4>
+                  <div class="w-75 mx-auto">
+                    <canvas id="earning-report" width="100" height="100"></canvas>
+                  </div>
+                  <div class="py-4 d-flex justify-content-center align-items-end">
+                    <p class="text-muted mb-0 ml-2">总数据量：</p>
+					<h1 class="text-center text-md-left mb-0">2.38M</h1>
+                  </div>
+                  <div id="earning-report-legend" class="earning-report-legend"></div>                  
+                </div>
+              </div>
+            </div>
+            <div class="col-md-9 grid-margin stretch-card">
+              <div class="card">
+                <div class="row h-100">
+                  <div class="col-md-5 border-right">
+                    <div class="card-body">
+                      <h4 class="card-title">我的特点</h4>
+                      <table class="table table-borderless">
+                        <tbody>
+                          <tr>
+                            <td>
+                              <h6>模型</h6>
+                              <p class="text-muted mb-0">作者正在更新</p>
+                            </td>
+                            <td>
+                              <h3 class="text-primary">
+                                seq2seq<br />+注意力机制
+                              </h3>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <h6>训练条件</h6>
+                              <p class="text-muted mb-0">设备</p>
+                            </td>
+                            <td>
+                              <h3 class="text-danger">
+                                GTX 1050
+                              </h3>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <h6>训练时长</h6>
+                              <p class="text-muted mb-0"></p>
+                            </td>
+                            <td>
+                              <h3 class="text-success">
+                                  一个下午
+                              </h3>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <h6>当前智力</h6>
+                              <p class="text-muted mb-0">心态炸裂</p>
+                            </td>
+                            <td>
+                              <h3 class="text-warning">
+                                  很笨
+                              </h3>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <h6>心愿</h6>
+                              <p class="text-muted mb-0"></p>
+                            </td>
+                            <td>
+                              <h3 class="text-primary">
+                                  和我说些话
+                              </h3>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div class="col-md-7">
+                    <div class="card-body d-flex flex-column h-100">
+                      <div class="d-flex flex-row">
+                        <h4 class="card-title">近期表现</h4>
+                      </div>
+                      <p>红色越低代表效果越好，蓝色代表访问量（访问量系统尚未完成）</p>
+                      <canvas id="chart-activity" class="mt-auto"></canvas>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <!-- content-wrapper ends -->
+        <!-- partial:partials/_footer.html -->
+        <footer class="footer">
+          <div class="w-100 clearfix">
+            <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © 2020 <a href="http://www.bootstrapmb.com/" target="_blank">jzy</a>. All rights reserved.</span>
+            <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">江子越 & made with <i class="icon-heart text-danger"></i></span>
+          </div>
+        </footer>
+        <!-- partial -->
+      </div>
+      <!-- main-panel ends -->
+    </div>
+    <!-- page-body-wrapper ends -->
+  </div>
+  <!-- container-scroller -->
+
+  <!-- plugins:js -->
+  <script src="vendors/js/vendor.bundle.base.js"></script>
+  <script src="vendors/js/vendor.bundle.addons.js"></script>
+  <!-- endinject -->
+  <!-- Plugin js for this page-->
+  <!-- End plugin js for this page-->
+  <!-- inject:js -->
+  <script src="js/template.js"></script>
+  <!-- endinject -->
+  <!-- Custom js for this page-->
+  <script src="js/dashboard.js"></script>
+  <script src="js/todolist.js"></script>
+  <!-- End custom js for this page-->
+
+
+
+
+
+
+
+
+<div class="chat">
+<div class="chat-title">
+	<h1 style='color:white;'>小江</h1>
+	<h2 style='margin-top:5px;'>咱们唠个五毛钱的天呗</h2>
+	<figure class="avatar">
+		<img src="res/avatar.jpg" /></figure>
+</div>
+<div class="messages">
+	<div class="messages-content"></div>
+</div>
+<div class="message-box">
+	<textarea type="text" class="message-input" placeholder="请输入..."></textarea>
+	<button type="submit" class="message-submit">发送</button>
+</div>
+
+</div>
+
+
+
+
+		<script src='js/jquery.min.js'></script>
+<script src='js/jquery.mCustomScrollbar.concat.min.js'></script>
+
+				<script src="js/index.js"></script>
+
+	</body>
+</html>

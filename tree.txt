@@ -1,0 +1,32 @@
+Root Directory
+©¦  app.py
+©¦  data_util.py
+©¦  execute.py
+©¦  getConfig.py
+©¦  seq2seq.ini
+©¦  seq2seqModel.py
+©¦  tree.txt
+©¦  
+©À©¤model_data
+©¦      checkpoint
+©¦      ckpt-48.data-00000-of-00002
+©¦      ckpt-48.data-00001-of-00002
+©¦      ckpt-48.index
+©¦      
+©À©¤records
+©¦      login_num.txt
+©¦      msg_num.txt
+©¦      user_msg.txt
+©¦      
+©À©¤static
+©¦      (web)
+©¦                      
+©À©¤templates
+©¦      index.html
+©¦      
+©À©¤train_data
+        dgk_shooter_z.conv
+        seq.data
+        xiaohuangji50w_nofenci.conv
+
+        
